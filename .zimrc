@@ -1,0 +1,152 @@
+# Start configuration added by Zim install {{{
+#
+# This is not sourced during shell startup, and it's only used to configure the
+# zimfw plugin manager.
+#
+
+#
+# Modules
+#
+
+# Sets sane Zsh built-in environment options.
+zmodule environment
+# Provides handy git aliases and functions.
+zmodule git
+# Applies correct bindkeys for input events.
+zmodule input
+# Sets a custom terminal title.
+zmodule termtitle
+# Utility aliases and functions. Adds colour to ls, grep and less.
+zmodule utility
+zmodule archive
+#
+# Prompt
+#
+
+# Exposes to prompts how long the last command took to execute, used by asciiship.
+zmodule duration-info
+# Exposes git repository status information to prompts, used by asciiship.
+zmodule git-info
+# A heavily reduced, ASCII-only version of the Spaceship and Starship prompts.
+zmodule asciiship
+
+#
+# Completion
+#
+
+# Additional completion definitions for Zsh.
+zmodule zsh-users/zsh-completions --fpath src
+# Enables and configures smart and extensive tab completion.
+# completion must be sourced after all modules that add completion definitions.
+zmodule completion
+
+#
+# Modules that must be initialized last
+#
+
+# Fish-like syntax highlighting for Zsh.
+# zsh-users/zsh-syntax-highlighting must be sourced after completion
+zmodule zsh-users/zsh-syntax-highlighting
+# Fish-like history search (up arrow) for Zsh.
+# zsh-users/zsh-history-substring-search must be sourced after zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+# Fish-like autosuggestions for Zsh.
+zmodule zsh-users/zsh-autosuggestions
+# }}} End configuration added by Zim install
+
+zmodule kiesman99/zim-zoxide
+zmodule willghatch/zsh-cdr
+zmodule https://github.com/Aloxaf/fzf-tab.git
+zmodule ohmyzsh/ohmyzsh
+
+#Plugin Oh-my-zsh
+#zmodule https://github.com/ohmyzsh/ohmyzsh.git
+zmodule ohmyzsh/ohmyzsh --root plugins/perl
+zmodule ohmyzsh/ohmyzsh --root plugins/vim-interaction
+zmodule ohmyzsh/ohmyzsh --root plugins/aliases
+zmodule ohmyzsh/ohmyzsh --root plugins/ansible
+zmodule ohmyzsh/ohmyzsh --root plugins/apache2-macports
+zmodule ohmyzsh/ohmyzsh --root plugins/bundler
+zmodule ohmyzsh/ohmyzsh --root plugins/branch
+zmodule ohmyzsh/ohmyzsh --root plugins/cake
+zmodule ohmyzsh/ohmyzsh --root plugins/cakephp3
+zmodule ohmyzsh/ohmyzsh --root plugins/colored-man-pages
+zmodule ohmyzsh/ohmyzsh --root plugins/common-aliases
+zmodule ohmyzsh/ohmyzsh --root plugins/command-not-found
+zmodule ohmyzsh/ohmyzsh --root plugins/composer
+zmodule ohmyzsh/ohmyzsh --root plugins/copybuffer
+zmodule ohmyzsh/ohmyzsh --root plugins/copyfile
+zmodule ohmyzsh/ohmyzsh --root plugins/copypath
+zmodule ohmyzsh/ohmyzsh --root plugins/cp
+zmodule ohmyzsh/ohmyzsh --root plugins/debian
+zmodule ohmyzsh/ohmyzsh --root plugins/dirhistory
+zmodule ohmyzsh/ohmyzsh --root plugins/dirpersist
+zmodule ohmyzsh/ohmyzsh --root plugins/dotenv
+zmodule ohmyzsh/ohmyzsh --root plugins/eza
+zmodule ohmyzsh/ohmyzsh --root plugins/extract
+zmodule ohmyzsh/ohmyzsh --root plugins/fasd
+zmodule ohmyzsh/ohmyzsh --root plugins/fastfile
+zmodule ohmyzsh/ohmyzsh --root plugins/fzf
+zmodule ohmyzsh/ohmyzsh --root plugins/fnm
+zmodule ohmyzsh/ohmyzsh --root plugins/frontend-search
+zmodule ohmyzsh/ohmyzsh --root plugins/gcloud
+zmodule ohmyzsh/ohmyzsh --root plugins/git
+zmodule ohmyzsh/ohmyzsh --root plugins/gitfast
+zmodule ohmyzsh/ohmyzsh --root plugins/gitignore
+zmodule ohmyzsh/ohmyzsh --root plugins/github
+zmodule ohmyzsh/ohmyzsh --root plugins/git-prompt
+zmodule ohmyzsh/ohmyzsh --root plugins/globalias
+zmodule ohmyzsh/ohmyzsh --root plugins/gradle
+zmodule ohmyzsh/ohmyzsh --root plugins/httpie
+zmodule ohmyzsh/ohmyzsh --root plugins/jsontools
+zmodule ohmyzsh/ohmyzsh --root plugins/last-working-dir
+zmodule ohmyzsh/ohmyzsh --root plugins/man
+zmodule ohmyzsh/ohmyzsh --root plugins/nmap
+zmodule ohmyzsh/ohmyzsh --root plugins/npm
+zmodule ohmyzsh/ohmyzsh --root plugins/nvm
+zmodule ohmyzsh/ohmyzsh --root plugins/pip
+zmodule ohmyzsh/ohmyzsh --root plugins/pipenv
+zmodule ohmyzsh/ohmyzsh --root plugins/python
+zmodule ohmyzsh/ohmyzsh --root plugins/rake
+zmodule ohmyzsh/ohmyzsh --root plugins/rbenv
+zmodule ohmyzsh/ohmyzsh --root plugins/rsync
+zmodule ohmyzsh/ohmyzsh --root plugins/ruby
+zmodule ohmyzsh/ohmyzsh --root plugins/sdk
+zmodule ohmyzsh/ohmyzsh --root plugins/ssh
+zmodule ohmyzsh/ohmyzsh --root plugins/sudo
+zmodule ohmyzsh/ohmyzsh --root plugins/systemadmin
+zmodule ohmyzsh/ohmyzsh --root plugins/systemd
+zmodule ohmyzsh/ohmyzsh --root plugins/supervisor
+zmodule ohmyzsh/ohmyzsh --root plugins/toolbox
+zmodule ohmyzsh/ohmyzsh --root plugins/tmux
+zmodule ohmyzsh/ohmyzsh --root plugins/universalarchive
+zmodule ohmyzsh/ohmyzsh --root plugins/ufw
+zmodule ohmyzsh/ohmyzsh --root plugins/ubuntu
+zmodule ohmyzsh/ohmyzsh --root plugins/themes
+zmodule ohmyzsh/ohmyzsh --root plugins/transfer
+zmodule ohmyzsh/ohmyzsh --root plugins/textmate
+zmodule ohmyzsh/ohmyzsh --root plugins/vi-mode
+zmodule ohmyzsh/ohmyzsh --root plugins/web-search
+zmodule ohmyzsh/ohmyzsh --root plugins/yum
+zmodule ohmyzsh/ohmyzsh --root plugins/z
+#zmodule ohmyzsh/ohmyzsh --root plugins/zsh-autosuggestions
+zmodule ohmyzsh/ohmyzsh --root plugins/zsh-interactive-cd
+#zmodule ohmyzsh/ohmyzsh --root plugins/zsh-completions
+zmodule ohmyzsh/ohmyzsh --root plugins/argocd
+zmodule ohmyzsh/ohmyzsh --root plugins/zsh-navigation-tools
+zmodule ohmyzsh/ohmyzsh --root plugins/azure
+zmodule ohmyzsh/ohmyzsh --root plugins/1password
+zmodule ohmyzsh/ohmyzsh --root plugins/term_tab
+zmodule ohmyzsh/ohmyzsh --root plugins/tmux-cssh
+zmodule ohmyzsh/ohmyzsh --root plugins/tmuxinator
+zmodule ohmyzsh/ohmyzsh --root plugins/git-auto-fetch
+zmodule ohmyzsh/ohmyzsh --root plugins/git-commit
+zmodule ohmyzsh/ohmyzsh --root plugins/git-extras
+zmodule ohmyzsh/ohmyzsh --root plugins/archlinux
+zmodule ohmyzsh/ohmyzsh --root plugins/colorize
+zmodule ohmyzsh/ohmyzsh --root plugins/compleat
+zmodule ohmyzsh/ohmyzsh --root plugins/history-substring-search
+zmodule ohmyzsh/ohmyzsh --root plugins/history
+zmodule https://github.com/z-shell/F-Sy-H.git
+zmodule https://github.com/boybh/tao-alias.git
+# key
