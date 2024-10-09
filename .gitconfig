@@ -58,3 +58,6 @@
 	colorMoved = zebra
 [init]
 	defaultBranch = development
+[user]
+	name = boybh
+	email = lygiaquan@icloud.com
