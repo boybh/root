@@ -1,0 +1,102 @@
+# Tập tin viminfo này được tự động tạo bởi Vim 9.1.
+# Bạn có thể sửa tập tin này, nhưng hãy thận trọng!
+
+# Viminfo version
+|1,4
+
+# Giá trị của tùy chọn 'encoding' vào thời điểm ghi tập tin
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dòng lệnh, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+::PlugInstall 
+|2,0,1728816100,,":PlugInstall "
+:qa!
+|2,0,1728732031,,"qa!"
+
+# Chuỗi tìm kiếm, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Biểu thức, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Dòng nhập, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Debug Line, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Sổ đăng ký:
+""1	LINE	0
+	
+|3,1,1,1,1,0,1728732022,""
+"2	LINE	0
+	#zstyle ':zim:input' double-dot-expand yes
+|3,0,2,1,1,0,1728732022,"#zstyle ':zim:input' double-dot-expand yes"
+"3	LINE	0
+	# Append `../` to your input for each `.` you type after an initial `..`
+|3,0,3,1,1,0,1728732022,"# Append `../` to your input for each `.` you type after an initial `..`"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1728732022,""
+"5	LINE	0
+	#
+|3,0,5,1,1,0,1728732022,"#"
+"6	LINE	0
+	# input
+|3,0,6,1,1,0,1728732022,"# input"
+"7	LINE	0
+	#
+|3,0,7,1,1,0,1728732022,"#"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1728732022,""
+"9	LINE	0
+	#zstyle ':zim:git' aliases-prefix 'g'
+|3,0,9,1,1,0,1728732021,"#zstyle ':zim:git' aliases-prefix 'g'"
+
+# biến toàn cầu:
+
+# Nhãn của tập tin:
+'0  1  0  ~/.zshrc
+|4,48,1,0,1728732031,"~/.zshrc"
+
+# Danh sách bước nhảy (mới hơn đứng trước):
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1728732031,"~/.zshrc"
+
+# Lịch sử các nhãn trong tập tin (từ mới nhất đến cũ nhất):
+
+> ~/.zshrc
+	*	1728732027	0
+	"	1	0
+	.	1	0
+	+	1	0

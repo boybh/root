@@ -1,0 +1,905 @@
+.autocomplete:async:pty:zle-widget:15: completion cannot be used recursively (yet)
+.autocomplete:async:complete:fd-widget:35: completion cannot be used recursively (yet)
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+zshexit: write error: Lỗi vào/ra
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+.autocomplete:async:pty:zle-widget:15: completion cannot be used recursively (yet)
+.autocomplete:async:complete:fd-widget:35: completion cannot be used recursively (yet)
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+zshexit: write error: Lỗi vào/ra
+zshexit: write error: Lỗi vào/ra
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+(eval):1: _autocomplete__compadd_opts_len: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_next_label:comptags:8: no tags registered
+(eval):1: _autocomplete__compadd_opts_len: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_all_labels:comptags:26: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+TRAPINT:zle:1: can only be called from widget function
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+.autocomplete:async:complete:fd-widget:35: completion cannot be used recursively (yet)
+(eval):1: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+zshexit: write error: Lỗi vào/ra
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+Command 'ansible-inventory' not found, but can be installed with:
+apt install ansible-core
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+zshexit: write error: Lỗi vào/ra
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+_approximate:3: _ftb__approximate: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_requested:comptags:8: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_requested:comptags:8: no tags registered
+(eval):1: _autocomplete__unambiguous: function definition file not found
+(eval):1: _autocomplete__compadd_opts_len: function definition file not found
+compadd:compadd:110: unknown match specification character `_'
+(eval):1: _autocomplete__command: function definition file not found
+(eval):1: _autocomplete__command: function definition file not found
+_tags:comptags:67: no tags registered
+_tags:comptags:67: no tags registered
+(eval):1: _autocomplete__compadd_opts_len: function definition file not found
+(eval):1: _autocomplete__compadd_opts_len: function definition file not found
+zshexit: write error: Lỗi vào/ra
+zshexit: write error: Lỗi vào/ra
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+TRAPINT:zle:1: can only be called from widget function
+_tags:comptags:67: no tags registered
+_tags:comptags:67: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_requested:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_requested:comptags:8: no tags registered
+.autocomplete:async:pty:zle-widget:15: completion cannot be used recursively (yet)
+.autocomplete:async:complete:fd-widget:35: completion cannot be used recursively (yet)
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+_tags:comptags:67: no tags registered
+_all_labels:comptags:26: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+_next_label:comptags:8: no tags registered
+_tags:comptags:67: no tags registered
+_requested:comptags:8: no tags registered
+_all_labels:comptags:26: no tags registered
+_next_label:comptags:8: no tags registered
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+zshexit: write error: Lỗi vào/ra
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+zshexit: write error: Lỗi vào/ra
+zshexit: write error: Lỗi vào/ra
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+(eval):1: autocomplete:async:_describe:old: function definition file not found
+_describe:2: autocomplete:async:_describe:old: function definition file not found
+.autocomplete:async:complete:fd-widget:35: completion cannot be used recursively (yet)
