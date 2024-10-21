@@ -1,0 +1,600 @@
+# Tập tin viminfo này được tự động tạo bởi Vim 9.1.
+# Bạn có thể sửa tập tin này, nhưng hãy thận trọng!
+
+# Viminfo version
+|1,4
+
+# Giá trị của tùy chọn 'encoding' vào thời điểm ghi tập tin
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~Msle0~/\<set\>
+
+# Dòng lệnh, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+:PlugInstall
+|2,0,1729533799,,"PlugInstall"
+:pluginstall
+|2,0,1729531710,,"pluginstall"
+
+# Chuỗi tìm kiếm, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+? \<set\>
+|2,1,1729534539,,"\\<set\\>"
+
+# Biểu thức, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Dòng nhập, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Debug Line, Lịch sử (bắt đầu từ mới nhất tới cũ nhất):
+
+# Sổ đăng ký:
+""1	CHAR	0
+	# Hàm để xóa plugin khỏi file
+	plugin_delete() {
+	    local plugins=("$@")
+	
+	    for plugin_name in "${plugins[@]}"; do
+	        # Kiểm tra nếu plugin tồn tại trong phần plugins+=($plugin_name)
+	        if grep -q -E "plugins\+=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            # Xóa plugin khỏi phần plugins+=
+	            sed -i.bak "/plugins\+=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE."
+	        fi
+	
+	        # Kiểm tra nếu plugin tồn tại trong phần plugins=($plugin_name)
+	        if grep -q -E "plugins=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            # Xóa plugin khỏi phần plugins
+	            sed -i.bak "/plugins=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE."
+	        fi
+	    done
+	
+	    # Kiểm tra và xóa file backup nếu có
+	    if [ -f "$PLUGIN_FILE.bak" ]; then
+	        rm "$PLUGIN_FILE.bak"
+	    fi
+	}
+	
+|3,1,1,0,26,0,1729543306,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong phần plugins+=($plugin_name)","        if grep -q -E \"plugins\\+=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            # Xóa plugin khỏi phần plugins+=","            sed -i.bak \"/plugins\\+=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"",>103
+|<"            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE.\"","        fi","","        # Kiểm tra nếu plugin tồn tại trong phần plugins=($plugin_name)","        if grep -q -E \"plugins=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            # Xóa plugin khỏi phần plugins","            sed -i.bak \"/plugins=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"",>101
+|<"            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE.\"","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}",""
+"2	CHAR	0
+	# Hàm để xóa plugin khỏi file
+	plugin_delete() {
+	    local plugins=("$@")
+	
+	    for plugin_name in "${plugins[@]}"; do
+	        # Kiểm tra nếu plugin tồn tại trong phần plugins+=($plugin_name)
+	        if grep -q -E "plugins\+=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            # Xóa plugin khỏi phần plugins+=
+	            sed -i.bak "/plugins\+=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE."
+	        # Kiểm tra nếu plugin tồn tại trong phần plugins=($plugin_name)
+	        elif grep -q -E "plugins=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            # Xóa tên plugin khỏi phần plugins
+	            sed -i.bak "/plugins=\($plugin_name\)/s/\($plugin_name\)//g" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE."
+	        else
+	            echo "Lỗi: Plugin '$plugin_name' không tồn tại trong file $PLUGIN_FILE." >&2
+	        fi
+	    done
+	
+	    # Kiểm tra và xóa file backup nếu có
+	    if [ -f "$PLUGIN_FILE.bak" ]; then
+	        rm "$PLUGIN_FILE.bak"
+	    fi
+	}
+	
+|3,0,2,0,26,0,1729542774,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong phần plugins+=($plugin_name)","        if grep -q -E \"plugins\\+=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            # Xóa plugin khỏi phần plugins+=","            sed -i.bak \"/plugins\\+=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"",>103
+|<"            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE.\"","        # Kiểm tra nếu plugin tồn tại trong phần plugins=($plugin_name)","        elif grep -q -E \"plugins=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            # Xóa tên plugin khỏi phần plugins","            sed -i.bak \"/plugins=\\($plugin_name\\)/s/\\($plugin_name\\)//g\" \"$PLUGIN_FILE\"",>101
+|<"            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE.\"","        else","            echo \"Lỗi: Plugin '$plugin_name' không tồn tại trong file $PLUGIN_FILE.\" >&2","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}",""
+"3	CHAR	0
+	# Hàm để xóa plugin khỏi file
+	plugin_delete() {
+	    local plugins=("$@")
+	
+	    for plugin_name in "${plugins[@]}"; do
+	        # Kiểm tra nếu plugin tồn tại trong file
+	        if ! grep -q -E "plugins+=\($plugin_name\)" "$PLUGIN_FILE" && ! grep -q -E "plugins=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            echo "Lỗi: Plugin '$plugin_name' không tồn tại." >&2
+	        else
+	            # Xóa plugin khỏi file
+	            sed -i.bak "/plugins+=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            sed -i.bak "/plugins=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi file $PLUGIN_FILE."
+	        fi
+	    done
+	
+	    # Kiểm tra và xóa file backup nếu có
+	    if [ -f "$PLUGIN_FILE.bak" ]; then
+	        rm "$PLUGIN_FILE.bak"
+	    fi
+	}
+	
+|3,0,3,0,22,0,1729542671,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong file","        if ! grep -q -E \"plugins+=\\($plugin_name\\)\" \"$PLUGIN_FILE\" && ! grep -q -E \"plugins=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            echo \"Lỗi: Plugin '$plugin_name' không tồn tại.\" >&2","        else",>39
+|<"            # Xóa plugin khỏi file","            sed -i.bak \"/plugins+=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"","            sed -i.bak \"/plugins=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"","            echo \"Đã xóa plugin '$plugin_name' khỏi file $PLUGIN_FILE.\"","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}",""
+"4	CHAR	0
+	# Hàm để xóa plugin khỏi file
+	plugin_delete() {
+	    local plugins=("$@")
+	
+	    for plugin_name in "${plugins[@]}"; do
+	        # Kiểm tra nếu plugin tồn tại trong file
+	if ! grep -q -E "plugins+=\($plugin_name\)" "$PLUGIN_FILE" && ! grep -q -E "plugins=\($plugin_name\)" "$PLUGIN_FILE"; then
+	            # Xóa plugin khỏi phần plugins+=
+	            sed -i.bak "/plugins+=\($plugin_name\)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE."
+	            # Xóa tên plugin khỏi phần plugins=
+	            sed -i.bak "/plugins=\($plugin_name\)/s/\($plugin_name\)//g" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE."
+	        else
+	            echo "Lỗi: Plugin '$plugin_name' không tồn tại trong file $PLUGIN_FILE." >&2
+	        fi
+	    done
+	
+	    # Kiểm tra và xóa file backup nếu có
+	    if [ -f "$PLUGIN_FILE.bak" ]; then
+	        rm "$PLUGIN_FILE.bak"
+	    fi
+	}
+	
+	
+	
+|3,0,4,0,26,0,1729542514,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong file","if ! grep -q -E \"plugins+=\\($plugin_name\\)\" \"$PLUGIN_FILE\" && ! grep -q -E \"plugins=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then","            # Xóa plugin khỏi phần plugins+=",>76
+|<"            sed -i.bak \"/plugins+=\\($plugin_name\\)/d\" \"$PLUGIN_FILE\"","            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins+= trong file $PLUGIN_FILE.\"","            # Xóa tên plugin khỏi phần plugins=","            sed -i.bak \"/plugins=\\($plugin_name\\)/s/\\($plugin_name\\)//g\" \"$PLUGIN_FILE\"","            echo \"Đã xóa plugin '$plugin_name' khỏi phần plugins trong file $PLUGIN_FILE.\"","        else",>99
+|<"            echo \"Lỗi: Plugin '$plugin_name' không tồn tại trong file $PLUGIN_FILE.\" >&2","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}","","",""
+"5	LINE	0
+	plugins=(
+	git
+	1password
+	alias-finder
+	aliases
+	archlinux
+	autoupdate
+	branch
+	bundler
+	colored-man-pages
+	colorize
+	common-aliases
+	compleat
+	command-not-found
+	copybuffer
+	copytext
+	copypath
+	copyzshell
+	cp
+	debian
+	dirhistory
+	dirpersist
+	dotenv
+	dropbox
+	emacs
+	encode64
+	extract
+	fastfile
+	frontend-search
+	fzf
+	fzf-tab
+	gcloud
+	gh
+	globalias
+	last-working-dir
+	man
+	nmap
+	pip
+	pipenv
+	python
+	rails
+	rake
+	rbenv
+	repo
+	rsync
+	ruby
+	sdk
+	snap
+	ssh
+	sudo
+|3,0,5,1,50,0,1729542466,"plugins=(","git","1password","alias-finder","aliases","archlinux","autoupdate","branch","bundler","colored-man-pages","colorize","common-aliases","compleat","command-not-found","copybuffer","copytext","copypath","copyzshell","cp","debian","dirhistory","dirpersist","dotenv","dropbox","emacs","encode64","extract","fastfile","frontend-search","fzf","fzf-tab","gcloud","gh","globalias","last-working-dir","man","nmap","pip","pipenv",>8
+|<"python","rails","rake","rbenv","repo","rsync","ruby","sdk","snap","ssh","sudo"
+"6	LINE	0
+	        if grep -q -E "plugins+=\($plugin_name\)" "$PLUGIN_FILE"; then
+|3,0,6,1,1,0,1729542067,"        if grep -q -E \"plugins+=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then"
+"7	LINE	0
+	        elif grep -q -E "plugins=\($plugin_name\)" "$PLUGIN_FILE"; then
+|3,0,7,1,1,0,1729542049,"        elif grep -q -E \"plugins=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then"
+"8	LINE	0
+	        if grep -q -E "plugins+=\($plugin_name\)" "$PLUGIN_FILE"; then
+|3,0,8,1,1,0,1729541827,"        if grep -q -E \"plugins+=\\($plugin_name\\)\" \"$PLUGIN_FILE\"; then"
+"9	CHAR	0
+	# Hàm để xóa plugin khỏi file
+	plugin_delete() {
+	    local plugins=("$@")
+	
+	    for plugin_name in "${plugins[@]}"; do
+	        # Kiểm tra nếu plugin tồn tại trong file
+	        if ! grep -q "plugins+=($plugin_name)" "$PLUGIN_FILE" && ! grep -q "plugins=($plugin_name)" "$PLUGIN_FILE"; then
+	            echo "Lỗi: Plugin '$plugin_name' không tồn tại." >&2
+	        else
+	            # Xóa plugin khỏi file
+	            sed -i.bak "/plugins+=($plugin_name)/d" "$PLUGIN_FILE"
+	            sed -i.bak "/plugins=($plugin_name)/d" "$PLUGIN_FILE"
+	            echo "Đã xóa plugin '$plugin_name' khỏi file $PLUGIN_FILE."
+	        fi
+	    done
+	
+	    # Kiểm tra và xóa file backup nếu có
+	    if [ -f "$PLUGIN_FILE.bak" ]; then
+	        rm "$PLUGIN_FILE.bak"
+	    fi
+	}
+	
+|3,0,9,0,22,0,1729541807,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong file","        if ! grep -q \"plugins+=($plugin_name)\" \"$PLUGIN_FILE\" && ! grep -q \"plugins=($plugin_name)\" \"$PLUGIN_FILE\"; then","            echo \"Lỗi: Plugin '$plugin_name' không tồn tại.\" >&2","        else",>39
+|<"            # Xóa plugin khỏi file","            sed -i.bak \"/plugins+=($plugin_name)/d\" \"$PLUGIN_FILE\"","            sed -i.bak \"/plugins=($plugin_name)/d\" \"$PLUGIN_FILE\"","            echo \"Đã xóa plugin '$plugin_name' khỏi file $PLUGIN_FILE.\"","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}",""
+"-	CHAR	0
+	g
+|3,0,36,0,1,0,1729541346,"g"
+
+# biến toàn cầu:
+
+# Nhãn của tập tin:
+'0  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,48,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'1  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,49,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'2  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,50,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'3  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,51,24,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'4  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,52,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'5  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,53,24,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'6  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,54,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'7  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,55,24,0,1729542680,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'8  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,56,24,0,1729542680,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'9  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,57,24,0,1729542680,"/mnt/e/config/cauhinh/taoplugin.zsh"
+
+# Danh sách bước nhảy (mới hơn đứng trước):
+-'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,24,0,1729542769,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,49,0,1729542680,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,24,0,1729542666,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  45  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,45,0,1729542566,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  45  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,45,0,1729542566,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  50  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,50,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  46  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,46,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  45  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,45,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  50  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,50,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  50  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,50,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  46  0  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,46,0,1729542478,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  74  20  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,74,20,1729542471,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  1  0  /mnt/e/config/cauhinh/plugin_omz.sh
+|4,39,1,0,1729542464,"/mnt/e/config/cauhinh/plugin_omz.sh"
+-'  31  121  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,31,121,1729542088,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  31  121  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,31,121,1729542088,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  31  121  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,31,121,1729542088,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  31  8  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,31,8,1729541919,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  31  8  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,31,8,1729541919,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  32  8  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,32,8,1729541915,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  32  8  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,32,8,1729541915,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  32  8  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,32,8,1729541915,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  4  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,4,1729541797,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  13  10  /mnt/e/config/cauhinh/taoplugin.zsh
+|4,39,13,10,1729541566,"/mnt/e/config/cauhinh/taoplugin.zsh"
+
+# Lịch sử các nhãn trong tập tin (từ mới nhất đến cũ nhất):
+
+> /mnt/e/config/cauhinh/taoplugin.zsh
+	*	1729543435	0
+	"	54	30
+	^	54	30
+	.	54	29
+	+	1	0
+	+	1	18
+	+	1	2
+	+	1	11
+	+	1	0
+	+	1	24
+	+	1	1
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	24
+	+	1	1
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	24
+	+	1	1
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	24
+	+	1	1
+	+	1	0
+	+	1	41
+	+	1	56
+	+	1	58
+	+	1	41
+	+	1	65
+	+	1	41
+	+	1	56
+	+	1	45
+	+	1	41
+	+	1	65
+	+	1	0
+	+	1	41
+	+	1	65
+	+	1	29
+	+	1	41
+	+	66	99
+	+	16	56
+	+	14	8
+	+	13	5
+	+	10	4
+	+	10	141
+	+	14	19
+	+	16	28
+	+	16	56
+	+	16	27
+	+	16	9
+	+	16	16
+	+	16	1
+	+	16	13
+	+	14	31
+	+	16	1
+	+	15	28
+	+	21	0
+	+	54	4
+	+	56	0
+	+	54	19
+	+	45	0
+	+	45	1
+	+	45	129
+	+	45	0
+	+	45	12
+	+	45	121
+	+	46	0
+	+	24	1
+	+	45	0
+	+	24	1
+	+	45	0
+	+	24	1
+	+	45	0
+	+	43	1
+	+	54	29
+
+> /mnt/e/config/cauhinh/plugin_omz.sh
+	*	1729542468	0
+	"	74	20
+	^	75	0
+	.	74	21
+	+	1	14
+	+	74	21
+
+> ~/.nanorc
+	*	1729534619	0
+	"	52	28
+	^	52	28
+	.	52	27
+	+	17	0
+	+	52	16
+	+	17	0
+	+	10	0
+	+	7	13
+	+	52	27
+
+> ~/.zshrc
+	*	1729533828	0
+	"	162	0
+	^	98	34
+	.	98	34
+	+	98	34
+
+> ~/.vimrc
+	*	1729533789	0
+	"	125	1
+	^	125	1
+	.	125	0
+	+	9	0
+	+	21	0
+	+	40	0
+	+	71	75
+	+	73	0
+	+	98	23
+	+	99	23
+	+	148	0
+	+	162	0
+	+	163	0
+	+	164	0
+	+	125	0
+	+	199	0
+	+	200	0
+	+	167	0
+	+	168	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	155	0
+	+	185	0
+	+	125	0

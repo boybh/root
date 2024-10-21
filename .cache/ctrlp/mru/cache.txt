@@ -1,0 +1,5 @@
+/mnt/e/config/cauhinh/taoplugin.zsh
+/mnt/e/config/cauhinh/plugin_omz.sh
+/root/.nanorc
+/root/.zshrc
+/root/.vimrc
