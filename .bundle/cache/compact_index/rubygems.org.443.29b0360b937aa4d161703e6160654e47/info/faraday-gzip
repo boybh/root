@@ -1,0 +1,9 @@
+---
+0.1.0.rc1 faraday:>= 1.0,zlib:~> 2.1|checksum:295ece547b358931fb8ddbab792259cf6748fd30b38232b8d63d2d7396bdfca4,ruby:< 4&>= 2.6,rubygems:> 1.3.1
+0.1.0 faraday:>= 1.0,zlib:~> 2.1|checksum:095ff2631e8969f78f9abf45f6a36f06da978dad30bece1f66a476cb74851590,ruby:< 4&>= 2.6
+1.0.0 faraday:>= 1.0,zlib:~> 2.1|checksum:f22b9d8259390d5fa2bd8bf65bfd9fbd724ac215d6358c115371e4e4f0bd10af,ruby:< 4&>= 2.6
+1.0.0-java faraday:>= 1.0|checksum:20da8b8b5950f20e61a12f28cd22a485b52bab52a48bd69975f58b2e7c082df9,ruby:< 4&>= 2.6
+2.0.0 faraday:>= 1.0,zlib:~> 3.0|checksum:3025e7c2426758be92cacafafa0b848608efedc914df425a7f5bc6dc95ac2195,ruby:< 4&>= 2.6
+2.0.0-java faraday:>= 1.0|checksum:d95a621a3d91b5a9243ab9b5a3224f537e4aa24b74d5585e5037677250e61ef0,ruby:< 4&>= 2.6
+2.0.1 faraday:>= 1.0,zlib:~> 3.0|checksum:45d686da637e5812854635f93dff343165a765faff1d7176b714e19a74fa92d1,ruby:< 4&>= 2.6
+2.0.1-java faraday:>= 1.0|checksum:6ad1b523ec80fae9503bf06e9edc52092b60b6a625d4d8af2decbd527dfe7f42,ruby:< 4&>= 2.6

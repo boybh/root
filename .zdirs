@@ -1,8 +1,11 @@
-/root/.config/custom
-/root/.config
 /root
-/root/.config/custom/plugins/fast-syntax-highlighting
+/root/.config
+/root/.rbenv
 /root/.config/custom/plugins
+/root/katoolin3
+/root/.config/custom/plugins/zsh-autopair
+/root/.config/custom
+/root/.config/custom/plugins/fast-syntax-highlighting
 /root/.config/custom/plugins/cd-gitroot
 /root/.config/addon
 /mnt/c/Windows/System32
@@ -14,6 +17,3 @@
 /root/root/.config/custom
 /root/root
 /root/.fzf
-/root/.config/custom/plugins/zsh-syntax-highlighting
-/root/.config/gh
-/root/.config/zsh

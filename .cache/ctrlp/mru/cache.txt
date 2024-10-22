@@ -1,3 +1,5 @@
+/root/.config/.git/COMMIT_EDITMSG
+/root/.git/COMMIT_EDITMSG
 /mnt/e/config/cauhinh/taoplugin.zsh
 /mnt/e/config/cauhinh/plugin_omz.sh
 /root/.nanorc
