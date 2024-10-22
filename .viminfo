@@ -233,46 +233,192 @@
 |3,0,9,0,22,0,1729541807,"# Hàm để xóa plugin khỏi file","plugin_delete() {","    local plugins=(\"$@\")","","    for plugin_name in \"${plugins[@]}\"; do","        # Kiểm tra nếu plugin tồn tại trong file","        if ! grep -q \"plugins+=($plugin_name)\" \"$PLUGIN_FILE\" && ! grep -q \"plugins=($plugin_name)\" \"$PLUGIN_FILE\"; then","            echo \"Lỗi: Plugin '$plugin_name' không tồn tại.\" >&2","        else",>39
 |<"            # Xóa plugin khỏi file","            sed -i.bak \"/plugins+=($plugin_name)/d\" \"$PLUGIN_FILE\"","            sed -i.bak \"/plugins=($plugin_name)/d\" \"$PLUGIN_FILE\"","            echo \"Đã xóa plugin '$plugin_name' khỏi file $PLUGIN_FILE.\"","        fi","    done","","    # Kiểm tra và xóa file backup nếu có","    if [ -f \"$PLUGIN_FILE.bak\" ]; then","        rm \"$PLUGIN_FILE.bak\"","    fi","}",""
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1729565355," "
+	#
+|3,1,36,0,1,0,1729566832,"#"
 
 # biến toàn cầu:
 
 # Nhãn của tập tin:
-'0  11  0  ~/.config/.git/COMMIT_EDITMSG
-|4,48,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
-'1  11  0  ~/.config/.git/COMMIT_EDITMSG
-|4,49,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
-'2  11  0  ~/.git/COMMIT_EDITMSG
-|4,50,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
-'3  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,51,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'4  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,52,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'5  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,53,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'6  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,54,24,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'7  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,55,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'8  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,56,24,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
-'9  49  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,57,49,0,1729542790,"/mnt/e/config/cauhinh/taoplugin.zsh"
+'0  10  0  ~/.config/.git/COMMIT_EDITMSG
+|4,48,10,0,1729566833,"~/.config/.git/COMMIT_EDITMSG"
+'1  7  0  ~/.config/.git/COMMIT_EDITMSG
+|4,49,7,0,1729566625,"~/.config/.git/COMMIT_EDITMSG"
+'2  7  0  ~/.config/.git/COMMIT_EDITMSG
+|4,50,7,0,1729566625,"~/.config/.git/COMMIT_EDITMSG"
+'3  484  0  ~/.git/COMMIT_EDITMSG
+|4,51,484,0,1729565536,"~/.git/COMMIT_EDITMSG"
+'4  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,52,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
+'5  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,53,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
+'6  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,54,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
+'7  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,55,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
+'8  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,56,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
+'9  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,57,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
 
 # Danh sách bước nhảy (mới hơn đứng trước):
+-'  10  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,10,0,1729566833,"~/.config/.git/COMMIT_EDITMSG"
+-'  7  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,7,0,1729566827,"~/.config/.git/COMMIT_EDITMSG"
+-'  7  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,7,0,1729566625,"~/.config/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,11,0,1729566619,"~/.config/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,11,0,1729566619,"~/.config/.git/COMMIT_EDITMSG"
+-'  484  0  ~/.git/COMMIT_EDITMSG
+|4,39,484,0,1729565536,"~/.git/COMMIT_EDITMSG"
+-'  484  0  ~/.git/COMMIT_EDITMSG
+|4,39,484,0,1729565536,"~/.git/COMMIT_EDITMSG"
+-'  484  0  ~/.git/COMMIT_EDITMSG
+|4,39,484,0,1729565536,"~/.git/COMMIT_EDITMSG"
+-'  484  0  ~/.git/COMMIT_EDITMSG
+|4,39,484,0,1729565536,"~/.git/COMMIT_EDITMSG"
+-'  8  0  ~/.git/COMMIT_EDITMSG
+|4,39,8,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  9  0  ~/.git/COMMIT_EDITMSG
+|4,39,9,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  8  0  ~/.git/COMMIT_EDITMSG
+|4,39,8,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  9  0  ~/.git/COMMIT_EDITMSG
+|4,39,9,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  8  0  ~/.git/COMMIT_EDITMSG
+|4,39,8,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  9  0  ~/.git/COMMIT_EDITMSG
+|4,39,9,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  8  0  ~/.git/COMMIT_EDITMSG
+|4,39,8,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  9  0  ~/.git/COMMIT_EDITMSG
+|4,39,9,0,1729565462,"~/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.git/COMMIT_EDITMSG
+|4,39,10,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  12  0  ~/.git/COMMIT_EDITMSG
+|4,39,12,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.git/COMMIT_EDITMSG
+|4,39,10,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  12  0  ~/.git/COMMIT_EDITMSG
+|4,39,12,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.git/COMMIT_EDITMSG
+|4,39,10,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  12  0  ~/.git/COMMIT_EDITMSG
+|4,39,12,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  10  0  ~/.git/COMMIT_EDITMSG
+|4,39,10,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  12  0  ~/.git/COMMIT_EDITMSG
+|4,39,12,0,1729565461,"~/.git/COMMIT_EDITMSG"
+-'  13  0  ~/.git/COMMIT_EDITMSG
+|4,39,13,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  14  0  ~/.git/COMMIT_EDITMSG
+|4,39,14,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  15  0  ~/.git/COMMIT_EDITMSG
+|4,39,15,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  16  0  ~/.git/COMMIT_EDITMSG
+|4,39,16,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  13  0  ~/.git/COMMIT_EDITMSG
+|4,39,13,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  14  0  ~/.git/COMMIT_EDITMSG
+|4,39,14,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  15  0  ~/.git/COMMIT_EDITMSG
+|4,39,15,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  16  0  ~/.git/COMMIT_EDITMSG
+|4,39,16,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  13  0  ~/.git/COMMIT_EDITMSG
+|4,39,13,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  14  0  ~/.git/COMMIT_EDITMSG
+|4,39,14,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  15  0  ~/.git/COMMIT_EDITMSG
+|4,39,15,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  16  0  ~/.git/COMMIT_EDITMSG
+|4,39,16,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  13  0  ~/.git/COMMIT_EDITMSG
+|4,39,13,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  14  0  ~/.git/COMMIT_EDITMSG
+|4,39,14,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  15  0  ~/.git/COMMIT_EDITMSG
+|4,39,15,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  16  0  ~/.git/COMMIT_EDITMSG
+|4,39,16,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1729565460,"~/.git/COMMIT_EDITMSG"
+-'  18  0  ~/.git/COMMIT_EDITMSG
+|4,39,18,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  19  0  ~/.git/COMMIT_EDITMSG
+|4,39,19,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  20  0  ~/.git/COMMIT_EDITMSG
+|4,39,20,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  18  0  ~/.git/COMMIT_EDITMSG
+|4,39,18,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  19  0  ~/.git/COMMIT_EDITMSG
+|4,39,19,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  20  0  ~/.git/COMMIT_EDITMSG
+|4,39,20,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  18  0  ~/.git/COMMIT_EDITMSG
+|4,39,18,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  19  0  ~/.git/COMMIT_EDITMSG
+|4,39,19,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  20  0  ~/.git/COMMIT_EDITMSG
+|4,39,20,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  18  0  ~/.git/COMMIT_EDITMSG
+|4,39,18,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  19  0  ~/.git/COMMIT_EDITMSG
+|4,39,19,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  20  0  ~/.git/COMMIT_EDITMSG
+|4,39,20,0,1729565459,"~/.git/COMMIT_EDITMSG"
+-'  489  0  ~/.git/COMMIT_EDITMSG
+|4,39,489,0,1729565457,"~/.git/COMMIT_EDITMSG"
+-'  489  0  ~/.git/COMMIT_EDITMSG
+|4,39,489,0,1729565457,"~/.git/COMMIT_EDITMSG"
+-'  489  0  ~/.git/COMMIT_EDITMSG
+|4,39,489,0,1729565457,"~/.git/COMMIT_EDITMSG"
+-'  489  0  ~/.git/COMMIT_EDITMSG
+|4,39,489,0,1729565457,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,11,0,1729565358,"~/.config/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,11,0,1729545235,"~/.config/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.config/.git/COMMIT_EDITMSG
 |4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.config/.git/COMMIT_EDITMSG
+|4,39,1,0,1729545222,"~/.config/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.git/COMMIT_EDITMSG
 |4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.git/COMMIT_EDITMSG
@@ -289,185 +435,39 @@
 |4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
 -'  11  0  ~/.git/COMMIT_EDITMSG
 |4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1729544885,"~/.git/COMMIT_EDITMSG"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  54  30  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,54,30,1729543435,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  4  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,4,1729543392,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  26  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,26,0,1729543329,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
--'  24  0  /mnt/e/config/cauhinh/taoplugin.zsh
-|4,39,24,0,1729543293,"/mnt/e/config/cauhinh/taoplugin.zsh"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
+-'  11  0  ~/.git/COMMIT_EDITMSG
+|4,39,11,0,1729544898,"~/.git/COMMIT_EDITMSG"
 
 # Lịch sử các nhãn trong tập tin (từ mới nhất đến cũ nhất):
 
 > ~/.config/.git/COMMIT_EDITMSG
-	*	1729565356	0
-	"	11	0
-	.	9	0
+	*	1729566832	0
+	"	10	0
+	.	10	0
 	+	7	0
 	+	8	0
 	+	11	0
@@ -477,14 +477,43 @@
 	+	6	0
 	+	5	0
 	+	9	0
+	+	10	0
+	+	7	0
+	+	10	0
 
 > ~/.git/COMMIT_EDITMSG
-	*	1729544895	0
-	"	11	0
-	.	11	0
+	*	1729565533	0
+	"	484	0
+	.	497	0
 	+	7	0
 	+	10	0
 	+	11	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	7	0
+	+	494	0
+	+	495	0
+	+	510	0
+	+	513	0
+	+	514	0
+	+	512	0
+	+	526	0
+	+	527	0
+	+	500	0
+	+	499	0
+	+	498	0
+	+	497	0
 
 > /mnt/e/config/cauhinh/taoplugin.zsh
 	*	1729543435	0
